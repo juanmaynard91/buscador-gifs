@@ -1,19 +1,5 @@
-# app-gif
+DESCRIPCION: Es una aplicacion de busqueda de gifs y stickers hecho con vue composition api
 
-## Project setup
-```
-npm install
-```
+LINK: https://singular-duckanoo-d57f03.netlify.app/#/
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![Uploading buscador-gifts.png…]()
