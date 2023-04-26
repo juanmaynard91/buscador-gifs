@@ -19,10 +19,10 @@ import Buscador from "../components/Buscador";
 import { ref } from "vue";
 
 const gifs = ref({});
-const search = ref("");
+const search = "DBZ";
 const limit = 30;
 
-const obtenerGifs = async (search = "DBZ") => {
+const obtenerGifs = async () => {
   try {
     const res = await fetch(`https://api.giphy.com/v1/gifs/search?q=${search}&api_key=8DzXku6215DmtAiEngS54kVEfdzsa3Cu&limit=${limit}`);
     const data = await res.json();
