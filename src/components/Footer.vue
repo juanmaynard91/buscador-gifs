@@ -1,16 +1,16 @@
 <template>
   <div class="footer">
     <footer class="bg-dark text-white p-3">
-      <!--<h3 class="text-center">{{ fecha }} - HECHO POR JUAN MAYNARD</h3>-->
-      <button class="btn btn-success" @click="compartir">Compartir proyecto <i class="bi bi-share-fill"></i></button>
+      <h3 class="text-center m-0">{{ fecha }} - HECHO POR JUAN MAYNARD</h3>
+      <!--<button class="btn btn-success" @click="compartir">Compartir proyecto <i class="bi bi-share-fill"></i></button>-->
     </footer>
   </div>
 </template>
 
 <script setup>
-//const fecha = new Date().getFullYear();
+const fecha = new Date().getFullYear();
 
-const compartir = () => {
+/*const compartir = () => {
   if (navigator.share) {
     navigator.share({
       title: "compartir en redes sociales",
@@ -20,7 +20,7 @@ const compartir = () => {
   } else {
     navigator.clipboard.writeText("link copiado!");
   }
-};
+};*/
 </script>
 
 <style>
