@@ -18,7 +18,7 @@ export default {
 
     const ejecutarPeticion = () => {
       if (buscar.value === "") {
-        console.log("vacio pa");
+        alert("Ingrese dato valido");
       } else {
         emit("accion", buscar.value);
       }

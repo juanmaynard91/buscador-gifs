@@ -13,22 +13,5 @@ const props = defineProps({ data: Object, require: true });
 </script>
 
 <style>
-.card {
-  align-items: center;
-  background-color: #000;
-  display: flex;
-  justify-content: center;
-}
-.card-title {
-  align-items: center;
-  display: flex;
-  height: 4rem;
-  justify-content: center;
-  text-transform: uppercase;
-}
-img {
-  border-radius: 5px;
-  height: 20rem;
-  width: 20rem;
-}
+@import "../assets/estilosSass.css";
 </style>

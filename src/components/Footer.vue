@@ -11,7 +11,5 @@ const fecha = new Date().getFullYear();
 </script>
 
 <style>
-.footer {
-  padding-top: 1rem;
-}
+@import "../assets/estilosSass.css";
 </style>

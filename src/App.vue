@@ -37,48 +37,6 @@ onMounted(() => {
 });
 </script>
 
-<style lang="scss">
-#app {
-  background-color: #000;
-  font-family: Oswald, sans-serif;
-  text-align: center;
-}
-
-#nav {
-  a {
-    font-weight: bold;
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
-
-.button {
-  background-color: #42b983;
-  border-radius: 5px;
-  border: none;
-  bottom: 10px;
-  color: #fff;
-  cursor: pointer;
-  padding: 10px;
-  position: fixed;
-  right: 10px;
-  transition: opacity 0.3s;
-}
-.button.hidden {
-  opacity: 0;
-}
-
-::-webkit-scrollbar {
-  background: linear-gradient(to top, #8e9eab, #eef2f3);
-  width: 12px;
-}
-::-webkit-scrollbar-track {
-  background: linear-gradient(to top, #8e9eab, #eef2f3);
-  border-radius: 12px;
-}
-::-webkit-scrollbar-thumb {
-  background-color: #42b983;
-  border-radius: 12px;
-}
+<style>
+@import "./assets/estilosSass.css";
 </style>
