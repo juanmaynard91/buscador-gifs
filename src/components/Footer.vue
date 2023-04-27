@@ -1,7 +1,7 @@
 <template>
   <div class="footer">
     <footer class="bg-dark text-white p-3">
-      <h3 class="text-center m-0">{{ fecha }} - HECHO POR JUAN MAYNARD</h3>
+      <h3 class="text-center m-0">{{ fecha }} - JUAN MAYNARD</h3>
       <!--<button class="btn btn-success" @click="compartir">Compartir proyecto <i class="bi bi-share-fill"></i></button>-->
     </footer>
   </div>
